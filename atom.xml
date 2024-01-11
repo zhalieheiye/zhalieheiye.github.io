@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2024-01-11T00:45:18.898Z</updated>
+  <updated>2024-01-11T01:54:58.341Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,21 +17,41 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>1</title>
+    <link href="http://example.com/2024/01/11/1/"/>
+    <id>http://example.com/2024/01/11/1/</id>
+    <published>2024-01-11T01:20:12.000Z</published>
+    <updated>2024-01-11T01:54:58.341Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/images/test/test.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/images/test/test.jpg&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>md</title>
     <link href="http://example.com/2024/01/11/md/"/>
     <id>http://example.com/2024/01/11/md/</id>
     <published>2024-01-11T00:41:55.000Z</published>
-    <updated>2024-01-11T00:45:18.898Z</updated>
+    <updated>2024-01-11T01:15:12.806Z</updated>
     
-    <content type="html"><![CDATA[<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><p>1.picture  </p><blockquote></blockquote>]]></content>
+    <content type="html"><![CDATA[<h1 id="Title"><a href="#Title" class="headerlink" title="Title"></a>Title</h1><p>1.picture  </p><blockquote><p><img src="C:\Users\mike\Desktop\微信图片_20240109192948(UpResNet10)(auto_scale)(Level3)(x2.000000)(16bit)(CUnet)(auto_scale)(Level3)(x2.000000)(16bit).png"></p></blockquote>]]></content>
     
     
       
       
     <summary type="html">&lt;h1 id=&quot;Title&quot;&gt;&lt;a href=&quot;#Title&quot; class=&quot;headerlink&quot; title=&quot;Title&quot;&gt;&lt;/a&gt;Title&lt;/h1&gt;&lt;p&gt;1.picture  &lt;/p&gt;
 &lt;blockquote&gt;
-&lt;/blockquote&gt;
-</summary>
+&lt;p&gt;&lt;img src=&quot;C:&#92;Users&#92;mike&#92;De</summary>
       
     
     
