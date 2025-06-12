@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Hexo</title>
+  
+  
+  <link href="http://example.com/atom.xml" rel="self"/>
+  
+  <link href="http://example.com/"/>
+  <updated>2025-06-12T05:09:21.567Z</updated>
+  <id>http://example.com/</id>
+  
+  <author>
+    <name>John Doe</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1</title>
+    <link href="http://example.com/2025/06/12/1/"/>
+    <id>http://example.com/2025/06/12/1/</id>
+    <published>2025-06-12T05:04:36.000Z</published>
+    <updated>2025-06-12T05:09:21.567Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/2025/06/12/1/83475883_p1.jpg"></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;/2025/06/12/1/83475883_p1.jpg&quot;&gt;&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+    <category term="none" scheme="http://example.com/tags/none/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>hexo基本操作</title>
+    <link href="http://example.com/2025/06/12/hexo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/"/>
+    <id>http://example.com/2025/06/12/hexo%E5%9F%BA%E6%9C%AC%E6%93%8D%E4%BD%9C/</id>
+    <published>2025-06-12T01:21:13.000Z</published>
+    <updated>2025-06-12T01:26:01.952Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="&#x751F;&#x6210;&#x535A;&#x5BA2;&#x6587;&#x7AE0;">&#x751F;&#x6210;&#x535A;&#x5BA2;&#x6587;&#x7AE0;</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;&#x6587;&#x4EF6;&#x540D;&quot;</span><br></pre></td></tr></table></figure><h1 id="&#x751F;&#x6210;&#x7F51;&#x9875;&#x6587;&#x4EF6;">&#x751F;&#x6210;&#x7F51;&#x9875;&#x6587;&#x4EF6;</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo generate</span><br><span class="line">\\&#x6216;&#x8005;</span><br><span class="line">hexo g</span><br></pre></td></tr></table></figure><h1 id="&#x542F;&#x52A8;&#x670D;&#x52A1;&#x5668;">&#x542F;&#x52A8;&#x670D;&#x52A1;&#x5668;</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo server</span><br><span class="line">&#x6216;&#x8005;</span><br><span class="line">hexo s</span><br></pre></td></tr></table></figure><h1 id="&#x63A8;&#x9001;&#x81F3;&#x4ED3;&#x5E93;">&#x63A8;&#x9001;&#x81F3;&#x4ED3;&#x5E93;</h1><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo deploy</span><br><span class="line">&#x6216;&#x8005;</span><br><span class="line">hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;&amp;#x751F;&amp;#x6210;&amp;#x535A;&amp;#x5BA2;&amp;#x6587;&amp;#x7AE0;&quot;&gt;&amp;#x751F;&amp;#x6210;&amp;#x535A;&amp;#x5BA2;&amp;#x6587;&amp;#x7AE0;&lt;/h1&gt;
+&lt;figure class=&quot;highlight pl</summary>
+      
+    
+    
+    
+    
+    <category term="软件操作" scheme="http://example.com/tags/%E8%BD%AF%E4%BB%B6%E6%93%8D%E4%BD%9C/"/>
+    
+  </entry>
+  
+</feed>
