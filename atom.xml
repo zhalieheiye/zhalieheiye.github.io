@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-06-13T08:02:07.004Z</updated>
+  <updated>2025-06-13T10:31:28.230Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>英语一分值分布</title>
+    <title>英语-分值分布</title>
     <link href="http://example.com/2025/06/13/english1/INFO/"/>
     <id>http://example.com/2025/06/13/english1/INFO/</id>
     <published>2025-06-13T07:57:01.000Z</published>
-    <updated>2025-06-13T08:02:07.004Z</updated>
+    <updated>2025-06-13T10:31:28.230Z</updated>
     
     <content type="html"><![CDATA[<table><thead><tr><th style="text-align: center;">&#x9898;&#x578B;</th><th style="text-align: center;">&#x6570;&#x91CF;</th><th style="text-align: center;">&#x5206;&#x503C;</th><th style="text-align: center;">&#x5360;&#x6BD4;</th></tr></thead><tbody><tr><td style="text-align: center;">&#x5B8C;&#x5F62;&#x586B;&#x7A7A;</td><td style="text-align: center;">20</td><td style="text-align: center;">10</td><td style="text-align: center;">10%</td></tr><tr><td style="text-align: center;">&#x9605;&#x8BFB;</td><td style="text-align: center;">20</td><td style="text-align: center;">40</td><td style="text-align: center;">40%</td></tr><tr><td style="text-align: center;">&#x5339;&#x914D;</td><td style="text-align: center;"></td><td style="text-align: center;">10</td><td style="text-align: center;">10%</td></tr><tr><td style="text-align: center;">&#x7FFB;&#x8BD1;</td><td style="text-align: center;">5</td><td style="text-align: center;">10</td><td style="text-align: center;">10%</td></tr><tr><td style="text-align: center;">&#x5199;&#x4F5C;</td><td style="text-align: center;">2</td><td style="text-align: center;">10+20</td><td style="text-align: center;">30%</td></tr></tbody></table>]]></content>
     
@@ -44,11 +44,11 @@
   </entry>
   
   <entry>
-    <title>数学一数值分布</title>
+    <title>数学-分值分布</title>
     <link href="http://example.com/2025/06/13/math1/INFO/"/>
     <id>http://example.com/2025/06/13/math1/INFO/</id>
     <published>2025-06-13T07:40:26.000Z</published>
-    <updated>2025-06-13T07:55:40.894Z</updated>
+    <updated>2025-06-13T10:31:18.903Z</updated>
     
     <content type="html"><![CDATA[<h1 id="&#x603B;&#x4F53;&#x5206;&#x5E03;">&#x603B;&#x4F53;&#x5206;&#x5E03;</h1><table><thead><tr><th style="text-align: center;">&#x9898;&#x578B;</th><th style="text-align: center;">&#x6570;&#x91CF;</th><th style="text-align: center;">&#x5206;&#x503C;</th><th style="text-align: center;">&#x5360;&#x6BD4;</th></tr></thead><tbody><tr><td style="text-align: center;">&#x5355;&#x9009;</td><td style="text-align: center;">10</td><td style="text-align: center;">50</td><td style="text-align: center;">33%</td></tr><tr><td style="text-align: center;">&#x586B;&#x7A7A;</td><td style="text-align: center;">6</td><td style="text-align: center;">30</td><td style="text-align: center;">20%</td></tr><tr><td style="text-align: center;">&#x89E3;&#x7B54;</td><td style="text-align: center;">6</td><td style="text-align: center;">70</td><td style="text-align: center;">47%</td></tr></tbody></table><h1 id="&#x5404;&#x90E8;&#x5206;&#x5206;&#x503C;&#x5206;&#x5E03;">&#x5404;&#x90E8;&#x5206;&#x5206;&#x503C;&#x5206;&#x5E03;</h1><table><thead><tr><th style="text-align: center;">&#x8003;&#x70B9;</th><th style="text-align: center;">&#x9898;&#x578B;</th><th style="text-align: center;">&#x5206;&#x503C;</th><th>&#x5360;&#x6BD4;</th></tr></thead><tbody><tr><td style="text-align: center;">&#x9AD8;&#x6570;</td><td style="text-align: center;">4&#x9009;&#x62E9;&#x3001;4&#x586B;&#x7A7A;&#x3001;4&#x89E3;&#x7B54;</td><td style="text-align: center;">90</td><td>60%</td></tr><tr><td style="text-align: center;">&#x7EBF;&#x4EE3;</td><td style="text-align: center;">3&#x9009;&#x62E9;&#x3001;1&#x586B;&#x7A7A;&#x3001;1&#x89E3;&#x7B54;</td><td style="text-align: center;">30</td><td>20%</td></tr><tr><td style="text-align: center;">&#x6982;&#x7387;&#x8BBA;</td><td style="text-align: center;">3&#x9009;&#x62E9;&#x3001;1&#x586B;&#x7A7A;&#x3001;1&#x89E3;&#x7B54;</td><td style="text-align: center;">30</td><td>20%</td></tr></tbody></table>]]></content>
     
@@ -70,11 +70,11 @@
   </entry>
   
   <entry>
-    <title>408分值分布情况</title>
+    <title>408-分值分布</title>
     <link href="http://example.com/2025/06/13/408/INFO/"/>
     <id>http://example.com/2025/06/13/408/INFO/</id>
     <published>2025-06-13T07:18:04.000Z</published>
-    <updated>2025-06-13T07:38:32.124Z</updated>
+    <updated>2025-06-13T10:31:38.198Z</updated>
     
     <content type="html"><![CDATA[<h1 id="&#x603B;&#x4F53;&#x5206;&#x503C;&#x5206;&#x5E03;">&#x603B;&#x4F53;&#x5206;&#x503C;&#x5206;&#x5E03;</h1><table><thead><tr><th style="text-align: center;">&#x9898;&#x578B;</th><th style="text-align: center;">&#x5206;&#x503C;</th><th style="text-align: center;">&#x5360;&#x6BD4;</th></tr></thead><tbody><tr><td style="text-align: center;">&#x9009;&#x62E9;</td><td style="text-align: center;">80</td><td style="text-align: center;">53%</td></tr><tr><td style="text-align: center;">&#x7EFC;&#x5408;&#x5E94;&#x7528;</td><td style="text-align: center;">70</td><td style="text-align: center;">47%</td></tr></tbody></table><h1 id="&#x9009;&#x62E9;&#x9898;">&#x9009;&#x62E9;&#x9898;</h1><table><thead><tr><th style="text-align: center;">&#x8003;&#x70B9;</th><th style="text-align: center;">&#x9898;&#x76EE;&#x5E8F;&#x53F7;</th><th style="text-align: center;">&#x5206;&#x503C;</th><th style="text-align: center;">&#x5360;&#x6BD4;(&#x603B;&#x5206;)</th></tr></thead><tbody><tr><td style="text-align: center;">&#x6570;&#x636E;&#x7ED3;&#x6784;</td><td style="text-align: center;">1~11</td><td style="text-align: center;">22</td><td style="text-align: center;">15%</td></tr><tr><td style="text-align: center;">&#x8BA1;&#x7EC4;</td><td style="text-align: center;">12~22</td><td style="text-align: center;">22</td><td style="text-align: center;">15%</td></tr><tr><td style="text-align: center;">&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;</td><td style="text-align: center;">23~32</td><td style="text-align: center;">20</td><td style="text-align: center;">13%</td></tr><tr><td style="text-align: center;">&#x8BA1;&#x7F51;</td><td style="text-align: center;">33~40</td><td style="text-align: center;">16</td><td style="text-align: center;">11%</td></tr></tbody></table><h1 id="&#x7EFC;&#x5408;&#x5E94;&#x7528;&#x9898;">&#x7EFC;&#x5408;&#x5E94;&#x7528;&#x9898;</h1><table><thead><tr><th style="text-align: center;">&#x8003;&#x70B9;</th><th style="text-align: center;">&#x9898;&#x76EE;&#x5E8F;&#x53F7;</th><th style="text-align: center;">&#x5206;&#x503C;</th><th style="text-align: center;">&#x5360;&#x6BD4;(&#x603B;&#x5206;)</th></tr></thead><tbody><tr><td style="text-align: center;">&#x6570;&#x636E;&#x7ED3;&#x6784;</td><td style="text-align: center;">41&#x3001;42</td><td style="text-align: center;">10+15</td><td style="text-align: center;">17%</td></tr><tr><td style="text-align: center;">&#x8BA1;&#x7EC4;</td><td style="text-align: center;">43&#x3001;44</td><td style="text-align: center;">8+13</td><td style="text-align: center;">14%</td></tr><tr><td style="text-align: center;">&#x64CD;&#x4F5C;&#x7CFB;&#x7EDF;</td><td style="text-align: center;">45&#x3001;46</td><td style="text-align: center;">7+8</td><td style="text-align: center;">10%</td></tr><tr><td style="text-align: center;">&#x8BA1;&#x7F51;</td><td style="text-align: center;">47</td><td style="text-align: center;">9</td><td style="text-align: center;">6%</td></tr></tbody></table>]]></content>
     
