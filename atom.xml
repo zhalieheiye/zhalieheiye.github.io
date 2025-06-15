@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2025-06-14T10:39:10.429Z</updated>
+  <updated>2025-06-15T02:26:50.133Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>线性代数——行列式</title>
+    <link href="http://example.com/2025/06/15/%E8%80%83%E7%A0%94/math1/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E2%80%94%E2%80%94%E8%A1%8C%E5%88%97%E5%BC%8F/"/>
+    <id>http://example.com/2025/06/15/%E8%80%83%E7%A0%94/math1/%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0%E2%80%94%E2%80%94%E8%A1%8C%E5%88%97%E5%BC%8F/</id>
+    <published>2025-06-15T02:20:56.000Z</published>
+    <updated>2025-06-15T02:26:50.133Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="&#x884C;&#x5217;&#x5F0F;&#x6027;&#x8D28;">&#x884C;&#x5217;&#x5F0F;&#x6027;&#x8D28;</h1><blockquote><ol type="1"><li>&#x884C;&#x5217;&#x4E92;&#x6362;&#xFF0C;&#x503C;&#x4E0D;&#x53D8;</li><li>&#x67D0;&#x884C;&#x6216;&#x5217;&#x5168;&#x4E3A;0&#xFF0C;&#x503C;&#x4E3A;0</li><li>&#x67D0;&#x884C;&#x6216;&#x67D0;&#x5217;&#x6709;&#x516C;&#x56E0;&#x5B50;k&#xFF0C;&#x5219;k&#x53EF;&#x63D0;&#x5230;&#x884C;&#x5217;&#x5F0F;&#x524D;</li><li>&#x884C;&#x5217;&#x5F0F;&#x53EF;&#x6309;&#x4E00;&#x884C;&#xFF0C;&#x6216;&#x4E00;&#x5217;&#xFF0C;&#x62C6;&#x6210;&#x4E24;&#x4E2A;&#x884C;&#x5217;&#x5F0F;&#x4E4B;&#x548C;</li><li>&#x884C;&#x5217;&#x5F0F;&#x4E24;&#x884C;&#x6216;&#x4E24;&#x5217;&#x4EA4;&#x6362;&#x4F4D;&#x7F6E;&#xFF0C;&#x884C;&#x5217;&#x5F0F;&#x53D8;&#x53F7;</li><li>&#x884C;&#x5217;&#x5F0F;&#x4E24;&#x884C;&#x6216;&#x4E24;&#x5217;&#x6210;&#x6BD4;&#x4F8B;&#xFF0C;&#x503C;&#x4E3A;0</li><li>&#x884C;&#x5217;&#x5F0F;&#x67D0;&#x884C;&#x6216;&#x67D0;&#x5217;&#x7684;k&#x500D;&#xFF0C;&#x52A0;&#x5230;&#x53E6;&#x4E00;&#x884C;&#x6216;&#x5217;&#xFF0C;&#x503C;&#x4E0D;&#x53D8;</li></ol></blockquote>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;&amp;#x884C;&amp;#x5217;&amp;#x5F0F;&amp;#x6027;&amp;#x8D28;&quot;&gt;&amp;#x884C;&amp;#x5217;&amp;#x5F0F;&amp;#x6027;&amp;#x8D28;&lt;/h1&gt;
+&lt;blockquote&gt;
+&lt;ol type=&quot;1&quot;&gt;
+&lt;li&gt;&amp;#x884C;&amp;#</summary>
+      
+    
+    
+    
+    
+    <category term="数学一" scheme="http://example.com/tags/%E6%95%B0%E5%AD%A6%E4%B8%80/"/>
+    
+  </entry>
   
   <entry>
     <title>26考研时间</title>
