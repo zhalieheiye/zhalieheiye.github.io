@@ -7,9 +7,10 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  Tag | D-Sketon
+  01-hugo搭建个人博客  | D-Sketon
 </title>
-<meta name="description" content="少女祈祷中..."/><script>
+<meta name="description" content="少女祈祷中..."/>
+    <meta name="keywords" content="hugo" /><script>
   window.siteConfig = JSON.parse("{\"anchor\":{\"auto\":{\"enable\":false,\"length\":60},\"explicit\":{\"enable\":false,\"marker\":\"{#anchor-\",\"prefix\":\"anchor-\"}},\"anchor_icon\":null,\"base\":\"http://localhost:1313/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"dark_mode\":{\"button\":true,\"mode\":\"auto\"},\"icon_font\":\"4552607_ex15nbittbh\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
   
 </script>
@@ -32,12 +33,12 @@
     type="font/woff2"
     crossorigin="anonymous"
   /><link rel="stylesheet" href="/css/loader.css" /><meta property="og:type" content="website" />
-  <meta property="og:title" content="Tag | D-Sketon" />
+  <meta property="og:title" content="01-hugo搭建个人博客  | D-Sketon" />
   <meta
     property="og:description"
     content="少女祈祷中..."
   />
-  <meta property="og:url" content="http://localhost:1313/tags/" />
+  <meta property="og:url" content="http://localhost:1313/post/technology/hugo/01-qucikstarthugo/" />
   <meta
     property="og:site_name"
     content="My New Hugo Project"
@@ -45,7 +46,7 @@
   <meta property="og:image" content="http://localhost:1313/images/banner.webp" />
   <meta property="article:author" content="D-Sketon" />
   <meta property="article:published_time" content="2026-09-17T22:08:28&#43;08:00" />
-  <meta property="article:modified_time" content="2026-09-17T08:36:41&#43;08:00" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="http://localhost:1313/images/banner.webp" /><link rel="alternate" type="application/rss+xml" href="http://localhost:1313/tags/index.xml" title="My New Hugo Project">
+  <meta property="article:modified_time" content="2026-09-17T08:36:41&#43;08:00" /><meta property="article:tag" content="tech" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="http://localhost:1313/images/banner.webp" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.css" /><link
     rel="preload"
     as="style"
@@ -119,20 +120,39 @@ This article does not have a corresponding language version
       </a><a class="main-nav-link-wrap" href="/friend"><div class='main-nav-icon icon rotate'>&#xe62b;</div><span class="main-nav-link">Friend</span>
       </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
-  <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-rss-link" class="nav-icon" href="/tags/index.xml" title="RSS Feed" aria-label="RSS Feed" target="_blank"></a></nav></div>
-<header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="/images/banner.webp" alt="Tags"><div id="header-outer">
+  <nav id="sub-nav" aria-label="Secondary navigation"></nav></div>
+<header id="header" aria-label="Site header"><picture></picture>
+    <img style="visibility:hidden"></img><div id="header-outer">
     <div id="header-title"><span id="logo">
-            <h1 data-aos="slide-up">Tag</h1>
+            <h1 data-aos="slide-up">01-hugo搭建个人博客 </h1>
           </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
           aria-label="Page content"
           
-          class="sidebar-right"  ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container "><div class="sidebar-wrapper">
+          class="sidebar-right"  ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container sticky"><div class="sidebar-wrapper">
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
-    ><div class="sidebar-author">
+    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#简单说明下两者分别负责什么">简单说明下两者分别负责什么</a></li>
+    <li><a href="#接着先讲解下hugo的安装与配置">接着，先讲解下hugo的安装与配置</a>
+      <ul>
+        <li><a href="#官方中文文档">官方中文文档</a></li>
+        <li><a href="#安装">安装：</a></li>
+        <li><a href="#快速上手">快速上手</a></li>
+      </ul>
+    </li>
+    <li><a href="#此时我们的网站文件就生成成功了接下来需要完成部署在github-pages的操作">此时，我们的网站文件就生成成功了，接下来需要完成部署在github pages的操作</a></li>
+    <li><a href="#此时先将github放在一边">此时，先将GitHub放在一边</a></li>
+    <li><a href="#易错点">易错点</a></li>
+  </ul>
+</nav>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
     data-sizes="auto"
@@ -181,75 +201,211 @@ This article does not have a corresponding language version
         href="/friend"
         aria-label="Friend"
       ></a><div class='sidebar-menu-icon icon rotate'>&#xe62b;</div><div class="sidebar-menu-link">Friend</div>
-    </div></div></div>
-  </div><div class="sidebar-widget"><div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <div style="display: flex; justify-content: space-between;">
-        <h3 class="widget-title">Tags</h3></div>
-      <div class="widget">
-        <ul class="tag-list" itemprop="keywords"><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/tech/"
-                  aria-label="Tag: Tech"
-                  title="Tech"
-                >
-                  Tech
-                </a>
-              </li></ul>
-      </div>
-    </div>
-  </div><div class="widget-wrapper">
+    </div></div></div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div><div class="sidebar-widget"></div></div></aside>
+<section id="main" aria-label="Main content"><article
+  class="h-entry article"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
   <div
-    class="widget-wrap"
+    class="article-inner"
     data-aos="fade-up"
   >
-    <h3 class="widget-title">Tag Cloud</h3><div class="widget tagcloud"><a
-            style="font-size:20px"
-            href="/tags/tech/"
-            aria-label="Tag: Tech"
-            >Tech</a
-          ></div>
-  </div>
-</div><div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link icon-calendar"
+    data-aos="zoom-in"
+  >创建于
+    <time datetime="2026-09-17 22:08:28 &#43;0800 CST" itemprop="datePublished"
+      >2026-09-17</time
     >
-      <h3 class="widget-title">Recent Posts</h3>
-      <div class="widget">
-        <ul><li>
-              <a href="/post/technology/hugo/01-qucikstarthugo/" title="01-hugo搭建个人博客 ">01-hugo搭建个人博客 </a>
-            </li></ul>
-      </div>
-    </div>
-  </div></div></div></aside>
-<section id="main" aria-label="Main content"><div
-    class="archives-outer-wrap"
-    data-aos="fade-up"
-  >
-    <div
-      class="
-        tag-wrap
-      "
-    ><div
-          class="
-            archives-tag-list-item
-          "
-          data-aos="zoom-in"
-        >
-          <a
-            class="
-              archives-tag-list-link
-            "
-            href="/tags/tech/"
-            >Tech</a
-          >
-        </div></div>
-  </div></section>
+  </span><span
+      class="article-date-link icon-calendar-plus"
+      data-aos="zoom-in"
+    >最后更新于
+      <time datetime="2026-09-17 08:36:41 &#43;0800 CST" itemprop="dateModified"
+        >2026-09-17</time
+      >
+    </span></div></div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="这是我的第一篇博文希望后面会坚持记录下去希望吧">
+<a class="header-anchor" href="#%e8%bf%99%e6%98%af%e6%88%91%e7%9a%84%e7%ac%ac%e4%b8%80%e7%af%87%e5%8d%9a%e6%96%87%e5%b8%8c%e6%9c%9b%e5%90%8e%e9%9d%a2%e4%bc%9a%e5%9d%9a%e6%8c%81%e8%ae%b0%e5%bd%95%e4%b8%8b%e5%8e%bb%e5%b8%8c%e6%9c%9b%e5%90%a7"></a>
+这是我的第一篇博文，希望后面会坚持记录下去（希望吧）
+</h1><p>这篇先简单讲解下怎么基于hugo 和 github pages进行博客的搭建</p>
+<h2 id="简单说明下两者分别负责什么">
+<a class="header-anchor" href="#%e7%ae%80%e5%8d%95%e8%af%b4%e6%98%8e%e4%b8%8b%e4%b8%a4%e8%80%85%e5%88%86%e5%88%ab%e8%b4%9f%e8%b4%a3%e4%bb%80%e4%b9%88"></a>
+简单说明下两者分别负责什么
+</h2><ul>
+<li>hugo 简单来说是一个工具，它提供了一些命令和框架，依据其设置的规制，进行md文档的撰写，就能将md文档转化成静态的网页文件</li>
+<li>github pages 就是负责将这些网页文件进行在线托管的一个平台，使得上文生成的静态网页文件可以被公网所访问</li>
+</ul>
+<h2 id="接着先讲解下hugo的安装与配置">
+<a class="header-anchor" href="#%e6%8e%a5%e7%9d%80%e5%85%88%e8%ae%b2%e8%a7%a3%e4%b8%8bhugo%e7%9a%84%e5%ae%89%e8%a3%85%e4%b8%8e%e9%85%8d%e7%bd%ae"></a>
+接着，先讲解下hugo的安装与配置
+</h2><ul>
+<li>
+<h3 id="官方中文文档">
+<a class="header-anchor" href="#%e5%ae%98%e6%96%b9%e4%b8%ad%e6%96%87%e6%96%87%e6%a1%a3"></a>
+<a href="https://hugo.opendocs.io/getting-started/">官方中文文档</a>
+</h3></li>
+<li>
+<h3 id="安装">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85"></a>
+安装：
+</h3><ul>
+<li><a href="https://hugo.opendocs.io/installation/">官方安装教程</a></li>
+<li>后续待填坑</li>
+</ul>
+</li>
+<li>
+<h3 id="快速上手">
+<a class="header-anchor" href="#%e5%bf%ab%e9%80%9f%e4%b8%8a%e6%89%8b"></a>
+快速上手
+</h3><ul>
+<li>
+<p>大体分为如下操作</p>
+<ol>
+<li>
+<p>创建项目架构</p>
+<pre tabindex="0"><code>hugo new site &lt;项目名&gt;
+# &lt;&gt; 不需要输入
+</code></pre></li>
+<li>
+<p>进入项目内部</p>
+<pre tabindex="0"><code>cd ./&lt;项目名&gt;初始化项目
+</code></pre></li>
+<li>
+<p>初始化项目</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>将 <a href="https://github.com/theNewDynamic/gohugo-theme-ananke">Ananke</a> 主题克隆到 <code>themes</code> 目录中，并将其作为 <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git 子模块</a> 添加到您的项目中。(待说明)</p>
+<pre tabindex="0"><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+# 命令讲解 git submodule add &lt;你想要添加的主题，可以在hugo官网浏览&gt; &lt;本地主题文件夹&gt;
+</code></pre></li>
+<li>
+<p>将主题添加到项目内</p>
+<pre tabindex="0"><code>echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+# 此方法有概率出问题
+# 建议直接打开hugo.toml文件，在末尾追加一行
+# theme = &#39;ananke&#39;
+# 如果有 theme 了，就把原先的覆盖掉，不要有两个相同的字段名，否则会报错
+# 如果安装的是其他的主题，则需要阅读对应的主题配置说明
+</code></pre></li>
+<li>
+<p>启动服务并在本地浏览展示效果</p>
+<pre tabindex="0"><code>hugo server 
+</code></pre><pre tabindex="0"><code># 应该输出类似的结果
+
+...
+Start building sites …
+hugo v0.166.0-78400b4de8adc99273d3e674ed6c4d14c3bdf669+extended windows/amd64 BuildDate=2026-09-09T14:45:02Z VendorInfo=gohugoio
+
+WARN  found no layout file for &#34;html&#34; for kind &#34;section&#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                  │ EN
+──────────────────┼─────
+ Pages            │  11
+ Paginator pages  │   0
+ Non-page files   │   0
+ Static files     │ 192
+ Processed images │   0
+ Aliases          │   1
+ Cleaned          │   0
+
+Built in 258 ms
+Environment: &#34;development&#34;
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+# 这里 http://localhost:1313/ 就是本地预览的地址，可以预览网页效果
+# 此时并未创建文章，所以应该是一个没有贴文内容的，且具有样式的网页
+</code></pre></li>
+<li>
+<p>创建贴文</p>
+<pre tabindex="0"><code>hugo new content/post/&lt;贴文标题&gt;.md
+</code></pre><p>此时，会在项目内的 content/post 文件夹下创建一个md文件，查看md文件的开头，应该是类似的结构</p>
+<pre tabindex="0"><code>+++
+date = &#39;2026-09-15T22:43:21+08:00&#39;
+draft = true
+title = &#39;贴文标题&#39;
+
++++
+</code></pre><p>默认贴文的draft属性值为true，不是的话也不影响，可以设置模板进行覆盖（待填坑）</p>
+<p>需要单独讲解的是，draft = true，表示该贴文处于草稿阶段，如果想要本地预览时，可以看见该贴文生成的网页，可以有两种方法：</p>
+<ul>
+<li>将 true 改为 false，表示该贴文已经编辑成功，可以正式发布，之后会将该帖文加入静态网页的构建中（一般来说，只有当贴文确定要发布了，才会修改该属性）
+<ul>
+<li>使用 hugo server 命令就可以本地浏览该贴文构建的网页</li>
+</ul>
+</li>
+<li>使用 hugo server &ndash;buildDrafts
+<ul>
+<li>表示本地预览时，构建处于草稿阶段的贴文</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>确认无疑后，就将贴文的 draft = true 改为 draft = false，之后利用 hugo 指令，生成静态文件夹（在项目根目录下，有一个public文件夹，这个就是生成的静态网页文件夹）</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
+<h2 id="此时我们的网站文件就生成成功了接下来需要完成部署在github-pages的操作">
+<a class="header-anchor" href="#%e6%ad%a4%e6%97%b6%e6%88%91%e4%bb%ac%e7%9a%84%e7%bd%91%e7%ab%99%e6%96%87%e4%bb%b6%e5%b0%b1%e7%94%9f%e6%88%90%e6%88%90%e5%8a%9f%e4%ba%86%e6%8e%a5%e4%b8%8b%e6%9d%a5%e9%9c%80%e8%a6%81%e5%ae%8c%e6%88%90%e9%83%a8%e7%bd%b2%e5%9c%a8github-pages%e7%9a%84%e6%93%8d%e4%bd%9c"></a>
+此时，我们的网站文件就生成成功了，接下来需要完成部署在github pages的操作
+</h2><ol>
+<li>
+<p>注册github账号</p>
+</li>
+<li>
+<p>创建一个仓库，注意，仓库名需要特别注意，仓库名需要满足如下条件：</p>
+<pre tabindex="0"><code>&lt;账号名&gt;.github.io
+</code></pre><p>具体操作步骤如图所示</p>
+<p><img src="./index.assets/image-20260917220430511.png" alt="image-20260917220430511"></p>
+</li>
+</ol>
+<p><img src="./index.assets/image-20260917220751611.png" alt="image-20260917220751611"></p>
+<ol start="3">
+<li>根据创建后的仓库提示，进行仓库的初始化操作</li>
+<li>生成密钥对，将公钥上传至github
+<img src="./index.assets/image-20260917222212759.png" alt="image-20260917222212759"></li>
+<li>依次输入公钥标识和公钥内容即可，具体公钥生成教程亲自行网上查询</li>
+</ol>
+<h2 id="此时先将github放在一边">
+<a class="header-anchor" href="#%e6%ad%a4%e6%97%b6%e5%85%88%e5%b0%86github%e6%94%be%e5%9c%a8%e4%b8%80%e8%be%b9"></a>
+此时，先将GitHub放在一边
+</h2><p>回到hugo创建的项目内，在项目根目录中找到 hugo.toml，编辑baseURL字段，将其替换成自己对应的链接（就是将zhalieheiye替换成自己的账户名）</p>
+<pre tabindex="0"><code>baseURL = &#34;https://zhalieheiye.github.io/&#34;
+</code></pre><p>进入public文件夹，执行</p>
+<pre tabindex="0"><code>git add .
+git commit -m &#34;提交信息&#34;
+git push
+</code></pre><p>此时网页就被推送至github pages，等待少许时间就能通过 baseURL对应的网站链接在线看见文章了</p>
+<h2 id="易错点">
+<a class="header-anchor" href="#%e6%98%93%e9%94%99%e7%82%b9"></a>
+易错点
+</h2><ol>
+<li>仓库名开头必须是账户名</li>
+<li>需要进入public文件夹之后执行推送至仓库的命令，如果需要将项目推送至仓库，请看后续教程（待填坑）</li>
+</ol>
+</div>
+    <footer class="article-footer"><ul class="article-category-list"></ul>
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/tech"
+        rel="tag"
+        >tech</a
+      >
+    </li></ul>
+</footer>
+  </div></article></section>
         </div><footer id="footer" aria-label="Site footer">
   <div style="width: 100%; overflow: hidden">
     <div class="footer-line"></div>
@@ -295,7 +451,25 @@ This article does not have a corresponding language version
             <div class="arrow-up"></div>
           </div><div id="mask" class="hide"></div>
       </div><nav id="mobile-nav" aria-label="Mobile navigation">
-  <div class="sidebar-wrap"><div class="sidebar-author">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#简单说明下两者分别负责什么">简单说明下两者分别负责什么</a></li>
+    <li><a href="#接着先讲解下hugo的安装与配置">接着，先讲解下hugo的安装与配置</a>
+      <ul>
+        <li><a href="#官方中文文档">官方中文文档</a></li>
+        <li><a href="#安装">安装：</a></li>
+        <li><a href="#快速上手">快速上手</a></li>
+      </ul>
+    </li>
+    <li><a href="#此时我们的网站文件就生成成功了接下来需要完成部署在github-pages的操作">此时，我们的网站文件就生成成功了，接下来需要完成部署在github pages的操作</a></li>
+    <li><a href="#此时先将github放在一边">此时，先将GitHub放在一边</a></li>
+    <li><a href="#易错点">易错点</a></li>
+  </ul>
+</nav>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
     data-sizes="auto"
@@ -344,7 +518,10 @@ This article does not have a corresponding language version
         href="/friend"
         aria-label="Friend"
       ></a><div class='sidebar-menu-icon icon rotate'>&#xe62b;</div><div class="sidebar-menu-link">Friend</div>
-    </div></div></div></nav>
+    </div></div></div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
 </div><script
     src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
     
@@ -394,9 +571,9 @@ This article does not have a corresponding language version
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "D-Sketon",
-          title: "Tags",
-          url: "http:\/\/localhost:1313\/tags\/",
-          description: "",
+          title: "01-hugo搭建个人博客 ",
+          url: "http:\/\/localhost:1313\/post\/technology\/hugo\/01-qucikstarthugo\/",
+          description: "\r这是我的第一篇博文，希望后面会坚持记录下去（希望吧）\r这篇先简单讲解下怎么基于hugo 和 github pages进行博客的搭建\n简单说明下两者分别负责什么\rhugo 简单来说是一个工具，它提供了一些命令和框架，依据其设置的规制，进行md文档的撰写，就能将md文档转化成静态的网页文件 github pages 就是负责将这些网页文件进行在线托管的一个平台，使得上文生成的静态网页文件可以被公网所访问 接着，先讲解下hugo的安装与配置\r官方中文文档\r安装：\r官方安装教程 后续待填坑 快速上手\r大体分为如下操作\n创建项目架构\nhugo new site \u0026lt;项目名\u0026gt; # …",
           cover: "http:\/\/localhost:1313\/images\/banner.webp",
         };
       </script><script src="/js/insert_highlight.js" data-pjax ></script><script src="/js/tabs.js" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {

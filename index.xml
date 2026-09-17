@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>My New Hugo Project</title>
-    <link>https://zhalieheiye.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content from My New Hugo Project</description>
     <generator>Hugo</generator>
     <language>en-us</language>
@@ -12,12 +12,93 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate></lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 08:36:41 +0800</lastBuildDate>
     
     
-    <atom:link href="https://zhalieheiye.github.io/index.xml" rel="self" type="application/rss&#43;xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss&#43;xml" />
     
 
+    
+    
+
+    <item>
+      <title>01-hugo搭建个人博客 </title>
+      <link>http://localhost:1313/post/technology/hugo/01-qucikstarthugo/</link>
+      <pubDate>Thu, 17 Sep 2026 22:08:28 &#43;0800</pubDate>
+      <author>xxx@example.com (D-Sketon)</author>
+      <guid>http://localhost:1313/post/technology/hugo/01-qucikstarthugo/</guid>
+      <description>
+        <![CDATA[<h1>01-hugo搭建个人博客 </h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <h1 id="这是我的第一篇博文希望后面会坚持记录下去希望吧">
+<a class="header-anchor" href="#%e8%bf%99%e6%98%af%e6%88%91%e7%9a%84%e7%ac%ac%e4%b8%80%e7%af%87%e5%8d%9a%e6%96%87%e5%b8%8c%e6%9c%9b%e5%90%8e%e9%9d%a2%e4%bc%9a%e5%9d%9a%e6%8c%81%e8%ae%b0%e5%bd%95%e4%b8%8b%e5%8e%bb%e5%b8%8c%e6%9c%9b%e5%90%a7"></a>
+这是我的第一篇博文，希望后面会坚持记录下去（希望吧）
+</h1><p>这篇先简单讲解下怎么基于hugo 和 github pages进行博客的搭建</p>
+<h2 id="简单说明下两者分别负责什么">
+<a class="header-anchor" href="#%e7%ae%80%e5%8d%95%e8%af%b4%e6%98%8e%e4%b8%8b%e4%b8%a4%e8%80%85%e5%88%86%e5%88%ab%e8%b4%9f%e8%b4%a3%e4%bb%80%e4%b9%88"></a>
+简单说明下两者分别负责什么
+</h2><ul>
+<li>hugo 简单来说是一个工具，它提供了一些命令和框架，依据其设置的规制，进行md文档的撰写，就能将md文档转化成静态的网页文件</li>
+<li>github pages 就是负责将这些网页文件进行在线托管的一个平台，使得上文生成的静态网页文件可以被公网所访问</li>
+</ul>
+<h2 id="接着先讲解下hugo的安装与配置">
+<a class="header-anchor" href="#%e6%8e%a5%e7%9d%80%e5%85%88%e8%ae%b2%e8%a7%a3%e4%b8%8bhugo%e7%9a%84%e5%ae%89%e8%a3%85%e4%b8%8e%e9%85%8d%e7%bd%ae"></a>
+接着，先讲解下hugo的安装与配置
+</h2><ul>
+<li>
+<h3 id="官方中文文档">
+<a class="header-anchor" href="#%e5%ae%98%e6%96%b9%e4%b8%ad%e6%96%87%e6%96%87%e6%a1%a3"></a>
+<a href="https://hugo.opendocs.io/getting-started/">官方中文文档</a>
+</h3></li>
+<li>
+<h3 id="安装">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85"></a>
+安装：
+</h3><ul>
+<li><a href="https://hugo.opendocs.io/installation/">官方安装教程</a></li>
+<li>后续待填坑</li>
+</ul>
+</li>
+<li>
+<h3 id="快速上手">
+<a class="header-anchor" href="#%e5%bf%ab%e9%80%9f%e4%b8%8a%e6%89%8b"></a>
+快速上手
+</h3><ul>
+<li>
+<p>大体分为如下操作</p>
+<ol>
+<li>
+<p>创建项目架构</p>
+<pre tabindex="0"><code>hugo new site &lt;项目名&gt;
+# &lt;&gt; 不需要输入
+</code></pre></li>
+<li>
+<p>进入项目内部</p>
+<pre tabindex="0"><code>cd ./&lt;项目名&gt;初始化项目
+</code></pre></li>
+<li>
+<p>初始化项目</p>
+<pre tabindex="0"><code>git init
+</code></pre><p>将 <a href="https://github.com/theNewDynamic/gohugo-theme-ananke">Ananke</a> 主题克隆到 <code>themes</code> 目录中，并将其作为 <a href="https://git-scm.com/book/en/v2/Git-Tools-Submodules">Git 子模块</a> 添加到您的项目中。(待说明)</p>
+<pre tabindex="0"><code>git submodule add https://github.com/theNewDynamic/gohugo-theme-ananke.git themes/ananke
+# 命令讲解 git submodule add &lt;你想要添加的主题，可以在hugo官网浏览&gt; &lt;本地主题文件夹&gt;
+</code></pre></li>
+<li>
+<p>将主题添加到项目内</p>
+<pre tabindex="0"><code>echo &#34;theme = &#39;ananke&#39;&#34; &gt;&gt; hugo.toml
+# 此方法有概率出问题
+# 建议直接打开hugo.toml文件，在末尾追加一行
+# theme = &#39;ananke&#39;
+# 如果有 theme 了，就把原先的覆盖掉，不要有两个相同的字段名，否则会报错
+# 如果安装的是其他的主题，则需要阅读对应的主题配置说明
+</code></pre></li>
+<li>
+<p>启动服务并在本地浏览展示效果</p>
+        
+        <hr><p>Published on 2026-09-17 at <a href='http://localhost:1313/'>My New Hugo Project</a>, last modified on 2026-09-17</p>]]>
+      </description>
+      
+    </item>
     
   </channel>
 </rss>
