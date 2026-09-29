@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Sun, 20 Sep 2026 21:29:06 +0800</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 22:08:28 +0800</lastBuildDate>
     
     
     <atom:link href="https://zhalieheiye.github.io/tags/hugo/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -23,10 +23,10 @@
 
     <item>
       <title>01-hugo搭建个人博客 </title>
-      <link>https://zhalieheiye.github.io/post/technology/hugo/01-qucikstarthugo/</link>
+      <link>https://zhalieheiye.github.io/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/</link>
       <pubDate>Thu, 17 Sep 2026 22:08:28 &#43;0800</pubDate>
       <author>xxx@example.com (D-Sketon)</author>
-      <guid>https://zhalieheiye.github.io/post/technology/hugo/01-qucikstarthugo/</guid>
+      <guid>https://zhalieheiye.github.io/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/</guid>
       <description>
         <![CDATA[<h1>01-hugo搭建个人博客 </h1><p>Author: D-Sketon(xxx@example.com)</p>
         
@@ -95,7 +95,7 @@
 <li>
 <p>启动服务并在本地浏览展示效果</p>
         
-        <hr><p>Published on 2026-09-17 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-20</p>]]>
+        <hr><p>Published on 2026-09-17 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-17</p>]]>
       </description>
       
     </item>

@@ -7,7 +7,7 @@
   name="viewport"
   content="width=device-width, initial-scale=1, shrink-to-fit=no"
 /><title>
-  Hugo | D-Sketon
+  在docker内配置mysql | D-Sketon
 </title>
 <meta name="description" content="少女祈祷中..."/><script>
   window.siteConfig = JSON.parse("{\"anchor\":{\"auto\":{\"enable\":false,\"length\":60},\"explicit\":{\"enable\":false,\"marker\":\"{#anchor-\",\"prefix\":\"anchor-\"}},\"anchor_icon\":null,\"base\":\"https://zhalieheiye.github.io/\",\"clipboard\":{\"copyright\":{\"count\":50,\"enable\":false,\"license_type\":\"by-nc-sa\"},\"fail\":{\"en\":\"Copy failed (ﾟ⊿ﾟ)ﾂ\",\"ja\":\"コピー失敗 (ﾟ⊿ﾟ)ﾂ\",\"pt-br\":\"Falha ao copiar (ﾟ⊿ﾟ)ﾂ\",\"zh-cn\":\"复制失败 (ﾟ⊿ﾟ)ﾂ\",\"zh-tw\":\"複製失敗 (ﾟ⊿ﾟ)ﾂ\"},\"success\":{\"en\":\"Copy successfully (*^▽^*)\",\"ja\":\"コピー成功 (*^▽^*)\",\"pt-br\":\"Copiado com sucesso (*^▽^*)\",\"zh-cn\":\"复制成功 (*^▽^*)\",\"zh-tw\":\"複製成功 (*^▽^*)\"}},\"code_block\":{\"expand\":true},\"dark_mode\":{\"button\":true,\"mode\":\"auto\"},\"icon_font\":\"4552607_ex15nbittbh\",\"outdate\":{\"daysago\":180,\"enable\":false,\"message\":{\"en\":\"This article was last updated on {time}. Please note that the content may no longer be applicable.\",\"ja\":\"この記事は最終更新日：{time}。記載内容が現在有効でない可能性がありますのでご注意ください。\",\"pt-br\":\"Este artigo foi atualizado pela última vez em {time}. Observe que o conteúdo pode não ser mais aplicável.\",\"zh-cn\":\"本文最后更新于 {time}，请注意文中内容可能已不适用。\",\"zh-tw\":\"本文最後更新於 {time}，請注意文中內容可能已不適用。\"}}}");
@@ -32,20 +32,20 @@
     type="font/woff2"
     crossorigin="anonymous"
   /><link rel="stylesheet" href="/css/loader.min.ac746e154f756f8220326eeb52a719f142ab038be5a8ddf30ea5ef15ef2356ea.css" /><meta property="og:type" content="website" />
-  <meta property="og:title" content="Hugo | D-Sketon" />
+  <meta property="og:title" content="在docker内配置mysql | D-Sketon" />
   <meta
     property="og:description"
     content="少女祈祷中..."
   />
-  <meta property="og:url" content="https://zhalieheiye.github.io/tags/hugo/" />
+  <meta property="og:url" content="https://zhalieheiye.github.io/post/technology/mysql/01-%E5%9C%A8docker%E5%86%85%E9%85%8D%E7%BD%AEmysql/" />
   <meta
     property="og:site_name"
     content="My New Hugo Project"
   />
   <meta property="og:image" content="https://zhalieheiye.github.io/images/banner.webp" />
   <meta property="article:author" content="D-Sketon" />
-  <meta property="article:published_time" content="2026-09-17T22:08:28&#43;08:00" />
-  <meta property="article:modified_time" content="2026-09-17T22:08:28&#43;08:00" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://zhalieheiye.github.io/images/banner.webp" /><link rel="alternate" type="application/rss+xml" href="https://zhalieheiye.github.io/tags/hugo/index.xml" title="My New Hugo Project">
+  <meta property="article:published_time" content="2026-09-28T18:25:44&#43;08:00" />
+  <meta property="article:modified_time" content="2026-09-28T18:25:44&#43;08:00" /><meta property="article:tag" content="docker, mysql" /><meta name="twitter:card" content="summary" /><meta name="twitter:image" content="https://zhalieheiye.github.io/images/banner.webp" />
 <link rel="shortcut icon" href="/favicon.ico"><link rel="stylesheet" href="/css/main.min.4b6c51ee95b18012db3d937026e766f623170a3d683b55d23509f745454f61d9.css" /><link
     rel="preload"
     as="style"
@@ -119,20 +119,31 @@ This article does not have a corresponding language version
       </a><a class="main-nav-link-wrap" href="/friend"><div class='main-nav-icon icon rotate'>&#xe62b;</div><span class="main-nav-link">Friend</span>
       </a><a id="main-nav-toggle" class="nav-icon" aria-label="Toggle navigation" role="button"></a>
   </nav>
-  <nav id="sub-nav" aria-label="Secondary navigation"><a id="nav-rss-link" class="nav-icon" href="/tags/hugo/index.xml" title="RSS Feed" aria-label="RSS Feed" target="_blank"></a></nav></div>
-<header id="header" aria-label="Site header"><picture></picture><img  fetchpriority="high" src="/images/banner.webp" alt="Hugo"><div id="header-outer">
+  <nav id="sub-nav" aria-label="Secondary navigation"></nav></div>
+<header id="header" aria-label="Site header"><picture></picture>
+    <img style="visibility:hidden"></img><div id="header-outer">
     <div id="header-title"><span id="logo">
-            <h1 data-aos="slide-up">Tag</h1>
-          </span><h2 id="subtitle-wrap" data-aos="slide-down"><span id="subtitle">Hugo</span></h2></div>
+            <h1 data-aos="slide-up">在docker内配置mysql</h1>
+          </span><h2 id="subtitle-wrap" data-aos="slide-down"></h2></div>
   </div>
 </header><div id="content"
           aria-label="Page content"
           
-          class="sidebar-right"  ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container "><div class="sidebar-wrapper">
+          class="sidebar-right"  ><aside id="sidebar" aria-label="Sidebar"><div class="sidebar-wrapper-container sticky"><div class="sidebar-wrapper">
     <div
       class="sidebar-wrap"
       data-aos="fade-up"
-    ><div class="sidebar-author">
+    ><div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#创建docker-composeyml文件">创建docker-compose.yml文件</a></li>
+    <li><a href="#创建挂载目录">创建挂载目录</a></li>
+    <li><a href="#进入容器并运行mysql">进入容器并运行mysql</a></li>
+  </ul>
+</nav>
+</div></div>
+          <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
     data-sizes="auto"
@@ -181,193 +192,177 @@ This article does not have a corresponding language version
         href="/friend"
         aria-label="Friend"
       ></a><div class='sidebar-menu-icon icon rotate'>&#xe62b;</div><div class="sidebar-menu-link">Friend</div>
-    </div></div></div>
-  </div><div class="sidebar-widget"><div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
-    >
-      <div style="display: flex; justify-content: space-between;">
-        <h3 class="widget-title">Tags</h3></div>
-      <div class="widget">
-        <ul class="tag-list" itemprop="keywords"><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/docker/"
-                  aria-label="Tag: Docker"
-                  title="Docker"
-                >
-                  Docker
-                </a>
-              </li><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/hugo/"
-                  aria-label="Tag: Hugo"
-                  title="Hugo"
-                >
-                  Hugo
-                </a>
-              </li><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/mysql/"
-                  aria-label="Tag: Mysql"
-                  title="Mysql"
-                >
-                  Mysql
-                </a>
-              </li><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/wsl/"
-                  aria-label="Tag: Wsl"
-                  title="Wsl"
-                >
-                  Wsl
-                </a>
-              </li><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/%E6%8A%80%E6%9C%AF/"
-                  aria-label="Tag: 技术"
-                  title="技术"
-                >
-                  技术
-                </a>
-              </li><li class="tag-item">
-                <a
-                  class="tag-link"
-                  href="/tags/%E6%97%A5%E5%B8%B8/"
-                  aria-label="Tag: 日常"
-                  title="日常"
-                >
-                  日常
-                </a>
-              </li></ul>
-      </div>
-    </div>
-  </div><div class="widget-wrapper">
+    </div></div></div><div class="sidebar-btn-wrapper" style="position:static">
+            <div class="sidebar-toc-btn current"></div>
+            <div class="sidebar-common-btn"></div>
+          </div></div>
+  </div><div class="sidebar-widget"></div></div></aside>
+<section id="main" aria-label="Main content"><article
+  class="h-entry article"
+  itemscope
+  itemtype="https://schema.org/BlogPosting"
+>
   <div
-    class="widget-wrap"
+    class="article-inner"
     data-aos="fade-up"
   >
-    <h3 class="widget-title">Tag Cloud</h3><div class="widget tagcloud"><a
-            style="font-size:10px"
-            href="/tags/docker/"
-            aria-label="Tag: Docker"
-            >Docker</a
-          ><a
-            style="font-size:10px"
-            href="/tags/hugo/"
-            aria-label="Tag: Hugo"
-            >Hugo</a
-          ><a
-            style="font-size:10px"
-            href="/tags/mysql/"
-            aria-label="Tag: Mysql"
-            >Mysql</a
-          ><a
-            style="font-size:10px"
-            href="/tags/wsl/"
-            aria-label="Tag: Wsl"
-            >Wsl</a
-          ><a
-            style="font-size:10px"
-            href="/tags/%E6%8A%80%E6%9C%AF/"
-            aria-label="Tag: 技术"
-            >技术</a
-          ><a
-            style="font-size:10px"
-            href="/tags/%E6%97%A5%E5%B8%B8/"
-            aria-label="Tag: 日常"
-            >日常</a
-          ></div>
-  </div>
-</div><div class="widget-wrapper">
-    <div
-      class="widget-wrap"
-      data-aos="fade-up"
+    <div class="article-meta"><div class="article-date">
+  <span
+    class="article-date-link icon-calendar"
+    data-aos="zoom-in"
+  >创建于
+    <time datetime="2026-09-28 18:25:44 &#43;0800 CST" itemprop="datePublished"
+      >2026-09-28</time
     >
-      <h3 class="widget-title">Recent Posts</h3>
-      <div class="widget">
-        <ul><li>
-              <a href="/post/technology/wsl/01-%E5%9C%A8wsl%E9%87%8C%E5%AE%89%E8%A3%85ubuntu/" title="01-在wsl里安装ubuntu">01-在wsl里安装ubuntu</a>
-            </li><li>
-              <a href="/post/technology/mysql/01-%E5%9C%A8docker%E5%86%85%E9%85%8D%E7%BD%AEmysql/" title="在docker内配置mysql">在docker内配置mysql</a>
-            </li><li>
-              <a href="/post/daily/2026/9/20/" title=" 碎碎念 "> 碎碎念 </a>
-            </li><li>
-              <a href="/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/" title="01-hugo搭建个人博客 ">01-hugo搭建个人博客 </a>
-            </li></ul>
-      </div>
-    </div>
-  </div></div></div></aside>
-<section id="main" aria-label="Main content"><div
-    class="archives-outer-wrap"
+  </span></div></div><div class="hr-line"></div><div class="e-content article-entry" itemprop="articleBody"><h1 id="前置要求一个装有docker的linux系统本文教程基于wsl具体版本信息如图所示">
+<a class="header-anchor" href="#%e5%89%8d%e7%bd%ae%e8%a6%81%e6%b1%82%e4%b8%80%e4%b8%aa%e8%a3%85%e6%9c%89docker%e7%9a%84linux%e7%b3%bb%e7%bb%9f%e6%9c%ac%e6%96%87%e6%95%99%e7%a8%8b%e5%9f%ba%e4%ba%8ewsl%e5%85%b7%e4%bd%93%e7%89%88%e6%9c%ac%e4%bf%a1%e6%81%af%e5%a6%82%e5%9b%be%e6%89%80%e7%a4%ba"></a>
+前置要求：一个装有docker的linux系统。本文教程基于wsl，具体版本信息如图所示
+</h1><pre tabindex="0"><code>lsb_release -a
+</code></pre><pre tabindex="0"><code>No LSB modules are available.
+Distributor ID: Ubuntu
+Description:    Ubuntu 26.04 LTS
+Release:        26.04
+Codename:       resolute
+</code></pre><h1 id="思路">
+<a class="header-anchor" href="#%e6%80%9d%e8%b7%af"></a>
+思路
+</h1><ol>
+<li>
+<p>先创建一个docker-compose.yml文件，并创建对应的挂载目录。</p>
+</li>
+<li>
+<p>通过docker-compose.yml文件，拉取镜像（本地没有的话，才会拉取镜像。如果有网络问题，可以先通过镜像网站拉取镜像，并修改对应的mysql版本信息）并创建容器。</p>
+</li>
+<li>
+<p>在容器内进行mysql的操作和练习（也可以通过其他第三方软件使用该数据库）</p>
+</li>
+</ol>
+<h2 id="创建docker-composeyml文件">
+<a class="header-anchor" href="#%e5%88%9b%e5%bb%badocker-composeyml%e6%96%87%e4%bb%b6"></a>
+创建docker-compose.yml文件
+</h2><p>创建文件，文件位置并没有限制。没有vim的也可以使用其他文本编辑器，如vi。</p>
+<pre tabindex="0"><code>vim docker-compose.yml
+</code></pre><p>如果使用vim，需要注意处于编辑模式。vim的三个模式的切换请自行上午查阅。文件内容仅供参考</p>
+<pre tabindex="0"><code>version: &#39;3&#39;
+services:
+  mysql: 
+    image: mysql:8 # 镜像版本
+    container_name: mysql8 # 容器名
+    environment:
+      - MYSQL_ROOT_PASSWORD=123456 # root用户密码
+    volumes:
+    # 挂载目录：容器内需要挂载目录
+      - /home/miku/docker/mysql8/log:/var/log/mysql # 日志文件挂载
+      - /home/miku/docker/mysql8/data:/var/lib/mysql
+      - /home/miku/docker/mysql8/conf.d:/etc/mysql/conf.d
+      - /etc/localtime:/etc/localtime:ro
+</code></pre><h2 id="创建挂载目录">
+<a class="header-anchor" href="#%e5%88%9b%e5%bb%ba%e6%8c%82%e8%bd%bd%e7%9b%ae%e5%bd%95"></a>
+创建挂载目录
+</h2><p>创建需要被挂载的目录，以上述文件为例，需要依次执行下列命令</p>
+<pre tabindex="0"><code>mkdir -p /home/miku/docker/mysql8/log
+mkdir -p /home/miku/docker/mysql8/data
+mkdir -p /home/miku/docker/mysql8/conf.d
+</code></pre><p>这里可以选择执行，mysql的配置文件</p>
+<pre tabindex="0"><code>vim //home/miku/docker/mysql8/conf.d/my.cnf
+</code></pre><p>文件内容，仅供参考</p>
+<pre tabindex="0"><code>[client]
+default-character-set=utf8mb4
+socket=/var/lib/mysql/mysql.sock
+
+[mysql]
+default-character-set=utf8mb4
+socket=/var/lib/mysql/mysql.sock
+
+[mysqld]
+port=3306
+</code></pre><p>执行下列命令</p>
+<pre tabindex="0"><code>docker-compose -f &lt;文件路径&gt; up -d
+</code></pre><p>查看容器，容器的id为b5ee5333067d。</p>
+<pre tabindex="0"><code>$ docker$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS          PORTS                 NAMES
+b5ee5333067d   mysql:8   &#34;docker-entrypoint.s…&#34;   42 minutes ago   Up 42 minutes   3306/tcp, 33060/tcp   mysql8？
+</code></pre><p>STATUS这里写着up，表示启动了，可以直接进入容器内进行操作。如果是下图，则是容器关闭了，需要手动启动</p>
+<pre tabindex="0"><code>$ docker$ docker ps -a
+CONTAINER ID   IMAGE     COMMAND                  CREATED          STATUS                     PORTS     NAMES
+b5ee5333067d   mysql:8   &#34;docker-entrypoint.s…&#34;   44 minutes ago   Exited (0) 4 seconds ago             mysql8
+</code></pre><p>执行如下命令，启动mysql容器</p>
+<pre tabindex="0"><code>docker container start b
+</code></pre><ul>
+<li>注：只要容器前缀id唯一，则可以只输入部分前缀即可。比如，这里只有一个容器，则输入b这个id就只能唯一确定这个容器，无需输入全部的容器id号</li>
+</ul>
+<h2 id="进入容器并运行mysql">
+<a class="header-anchor" href="#%e8%bf%9b%e5%85%a5%e5%ae%b9%e5%99%a8%e5%b9%b6%e8%bf%90%e8%a1%8cmysql"></a>
+进入容器并运行mysql
+</h2><pre tabindex="0"><code>docker exec -it &lt;容器id&gt; /bin/bash
+</code></pre><p>登录数据库，数据库输入密码时看不见密码。密码在docker-compose.yml文件内配置了</p>
+<pre tabindex="0"><code>mysql -u root -p
+</code></pre><p>如果要导入数据库文件，则需要先创建数据库，进入数据库后，再进行导入。这里创建了数据库course，并设置了编码。下文course都指的是这个新创建的数据库</p>
+<pre tabindex="0"><code>CREATE DATABASE course CHARACTER SET utf8mb4 COLLATE utf8mb4_general_ci;
+</code></pre><p>使用数据库，并导入数据库文件</p>
+<pre tabindex="0"><code>use course;
+</code></pre><p>导入数据库（sql文件）。此处文件路径是容器内的路径</p>
+<pre tabindex="0"><code>source &lt;文件路径&gt;;
+</code></pre><ul>
+<li>
+<p>注：容器内导入文件命令</p>
+<pre tabindex="0"><code>docker cp &lt;宿主机文件路径，本文指的是wsl内的路径&gt; &lt;容器名称&gt;:&lt;容器内路径&gt;
+</code></pre><p>例如</p>
+<pre tabindex="0"><code>docker cp /path/to/local/file.txt my_container:/path/in/container/
+</code></pre></li>
+</ul>
+<p>此时，数据库已经导入，后续可以使用导入的数据库文件了</p>
+<h1 id="参考">
+<a class="header-anchor" href="#%e5%8f%82%e8%80%83"></a>
+参考
+</h1><p><a href="https://blog.csdn.net/weixin_44606481/article/details/132840940">使用docker-compose 部署 MySQL（所有版本通用）</a></p>
+</div>
+    <footer class="article-footer"><ul class="article-category-list"></ul>
+<ul class="article-tag-list" itemprop="keywords"><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/docker"
+        rel="tag"
+        >docker</a
+      >
+    </li><li class="article-tag-list-item" data-aos="zoom-in">
+      <a
+        class="article-tag-list-link"
+        href="/tags/mysql"
+        rel="tag"
+        >mysql</a
+      >
+    </li></ul>
+</footer>
+  </div><nav
+    id="article-nav"
+    aria-label="Article navigation"
     data-aos="fade-up"
-  ><div class="tag-wrap"><div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
-    >
-      <a class="archives-tag-list-link" href="/tags/docker/"
-        >Docker</a
-      >
-    </div><div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
-    >
-      <a class="archives-tag-list-link" href="/tags/hugo/"
-        >Hugo</a
-      >
-    </div><div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
-    >
-      <a class="archives-tag-list-link" href="/tags/mysql/"
-        >Mysql</a
-      >
-    </div><div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
-    >
-      <a class="archives-tag-list-link" href="/tags/wsl/"
-        >Wsl</a
-      >
-    </div><div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
-    >
-      <a class="archives-tag-list-link" href="/tags/%E6%8A%80%E6%9C%AF/"
-        >技术</a
-      >
-    </div><div
-      class="archives-tag-list-item"
-      data-aos="zoom-in"
-    >
-      <a class="archives-tag-list-link" href="/tags/%E6%97%A5%E5%B8%B8/"
-        >日常</a
-      >
-    </div></div>
-<div class="category-wrap"></div><section class="archives-wrap" data-aos="fade-up">
-    <div class="archive-year-wrap">
-      <span class="archive-year">2026</span>
-    </div>
-    <ul><li class="archive-article">
-          <div class="archive-article-date">
-            <span>
-              <time
-                class="dt-published"
-                datetime="2026-09-17 22:08:28 &#43;0800 CST"
-                itemprop="datePublished"
-                >2026-09</time
-              >
-            </span>
-          </div><a class="archive-article-title" href="/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/"
-              >01-hugo搭建个人博客 </a
-            ></li></ul>
-  </section></div><nav id="page-nav" aria-label="Pagination navigation" data-aos="fade-up"><span class="page-number current">1</span></nav>
-</section>
+  ><div class="article-nav-link-wrap left"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt=" 碎碎念 "
+              class="lazyload"
+            /><a
+          href="/post/daily/2026/9/20/"
+          aria-label="Prev: 碎碎念 "
+          title="Prev: 碎碎念 "
+        ></a>
+        <div class="article-nav-caption">Prev</div>
+        <h3 class="article-nav-title"> 碎碎念 </h3>
+      </div><div class="article-nav-link-wrap right"><img
+              data-src="https://d-sketon.top/img/_backwebp/bg1.webp"
+              data-sizes="auto"
+              alt="01-在wsl里安装ubuntu"
+              class="lazyload"
+            /><a
+          href="/post/technology/wsl/01-%E5%9C%A8wsl%E9%87%8C%E5%AE%89%E8%A3%85ubuntu/"
+          aria-label="Next:01-在wsl里安装ubuntu"
+          title="Next:01-在wsl里安装ubuntu"
+        ></a>
+        <div class="article-nav-caption">Next</div>
+        <h3 class="article-nav-title">01-在wsl里安装ubuntu</h3>
+      </div></nav></article></section>
         </div><footer id="footer" aria-label="Site footer">
   <div style="width: 100%; overflow: hidden">
     <div class="footer-line"></div>
@@ -413,7 +408,17 @@ This article does not have a corresponding language version
             <div class="arrow-up"></div>
           </div><div id="mask" class="hide"></div>
       </div><nav id="mobile-nav" aria-label="Mobile navigation">
-  <div class="sidebar-wrap"><div class="sidebar-author">
+  <div class="sidebar-wrap"><div class="sidebar-toc-sidebar"><h3 class="toc-title">Contents</h3>
+<div class="sidebar-toc-wrapper toc-div-class">
+  <nav id="TableOfContents">
+  <ul>
+    <li><a href="#创建docker-composeyml文件">创建docker-compose.yml文件</a></li>
+    <li><a href="#创建挂载目录">创建挂载目录</a></li>
+    <li><a href="#进入容器并运行mysql">进入容器并运行mysql</a></li>
+  </ul>
+</nav>
+</div></div>
+        <div class="sidebar-common-sidebar hidden"><div class="sidebar-author">
   <img
     data-src="/avatar/avatar.webp"
     data-sizes="auto"
@@ -462,7 +467,10 @@ This article does not have a corresponding language version
         href="/friend"
         aria-label="Friend"
       ></a><div class='sidebar-menu-icon icon rotate'>&#xe62b;</div><div class="sidebar-menu-link">Friend</div>
-    </div></div></div></nav>
+    </div></div></div></div><div class="sidebar-btn-wrapper">
+        <div class="sidebar-toc-btn current"></div>
+        <div class="sidebar-common-btn"></div>
+      </div></nav>
 </div><script
     src="https://npm.webcache.cn/lazysizes@5.3.2/lazysizes.min.js"
     
@@ -512,9 +520,9 @@ This article does not have a corresponding language version
   <div><script data-pjax>
         window.REIMU_POST = {
           author: "D-Sketon",
-          title: "Hugo",
-          url: "https:\/\/zhalieheiye.github.io\/tags\/hugo\/",
-          description: "",
+          title: "在docker内配置mysql",
+          url: "https:\/\/zhalieheiye.github.io\/post\/technology\/mysql\/01-%E5%9C%A8docker%E5%86%85%E9%85%8D%E7%BD%AEmysql\/",
+          description: "\r前置要求：一个装有docker的linux系统。本文教程基于wsl，具体版本信息如图所示\rlsb_release -a No LSB modules are available. Distributor ID: Ubuntu Description: Ubuntu 26.04 LTS Release: 26.04 Codename: resolute 思路\r先创建一个docker-compose.yml文件，并创建对应的挂载目录。\n通过docker-compose.yml文件，拉取镜像（本地没有的话，才会拉取镜像。如果有网络问题，可以先通过镜像网站拉取镜像，并修改对应的mysql版本信息）并 …",
           cover: "https:\/\/zhalieheiye.github.io\/images\/banner.webp",
         };
       </script><script src="/js/insert_highlight.js" integrity="" crossorigin="anonymous" data-pjax ></script><script src="/js/tabs.js" integrity="" crossorigin="anonymous" data-pjax defer></script><script type="module" data-pjax>const PhotoSwipeLightbox = (await safeImport("https:\/\/npm.webcache.cn\/photoswipe@5.4.4\/dist\/photoswipe-lightbox.esm.min.js", "sha384-DiL6M\/gG\u002bwmTxmCRZyD1zee6lIhawn5TGvED0FOh7fXcN9B0aZ9dexSF\/N6lrZi\/")).default;const initPswp = (gallery, children) => {

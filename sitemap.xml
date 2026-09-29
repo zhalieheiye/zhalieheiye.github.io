@@ -2,38 +2,44 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://zhalieheiye.github.io/post/mysql/01/</loc>
+    <loc>https://zhalieheiye.github.io/post/technology/wsl/01-%E5%9C%A8wsl%E9%87%8C%E5%AE%89%E8%A3%85ubuntu/</loc>
+    <lastmod>2026-09-29T08:05:15+08:00</lastmod>
+  </url><url>
+    <loc>https://zhalieheiye.github.io/post/technology/mysql/01-%E5%9C%A8docker%E5%86%85%E9%85%8D%E7%BD%AEmysql/</loc>
     <lastmod>2026-09-28T18:25:44+08:00</lastmod>
   </url><url>
     <loc>https://zhalieheiye.github.io/post/daily/2026/9/20/</loc>
     <lastmod>2026-09-20T21:29:06+08:00</lastmod>
   </url><url>
-    <loc>https://zhalieheiye.github.io/post/technology/hugo/01-qucikstarthugo/</loc>
-    <lastmod>2026-09-20T21:29:06+08:00</lastmod>
+    <loc>https://zhalieheiye.github.io/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/</loc>
+    <lastmod>2026-09-17T22:08:28+08:00</lastmod>
+  </url><url>
+    <loc>https://zhalieheiye.github.io/</loc>
+    <lastmod>2026-09-29T08:05:15+08:00</lastmod>
+  </url><url>
+    <loc>https://zhalieheiye.github.io/post/</loc>
+    <lastmod>2026-09-29T08:05:15+08:00</lastmod>
+  </url><url>
+    <loc>https://zhalieheiye.github.io/tags/</loc>
+    <lastmod>2026-09-29T08:05:15+08:00</lastmod>
+  </url><url>
+    <loc>https://zhalieheiye.github.io/tags/wsl/</loc>
+    <lastmod>2026-09-29T08:05:15+08:00</lastmod>
   </url><url>
     <loc>https://zhalieheiye.github.io/tags/docker/</loc>
     <lastmod>2026-09-28T18:25:44+08:00</lastmod>
   </url><url>
-    <loc>https://zhalieheiye.github.io/</loc>
-    <lastmod>2026-09-28T18:25:44+08:00</lastmod>
-  </url><url>
     <loc>https://zhalieheiye.github.io/tags/mysql/</loc>
-    <lastmod>2026-09-28T18:25:44+08:00</lastmod>
-  </url><url>
-    <loc>https://zhalieheiye.github.io/post/</loc>
-    <lastmod>2026-09-28T18:25:44+08:00</lastmod>
-  </url><url>
-    <loc>https://zhalieheiye.github.io/tags/</loc>
     <lastmod>2026-09-28T18:25:44+08:00</lastmod>
   </url><url>
     <loc>https://zhalieheiye.github.io/tags/%E6%97%A5%E5%B8%B8/</loc>
     <lastmod>2026-09-20T21:29:06+08:00</lastmod>
   </url><url>
     <loc>https://zhalieheiye.github.io/tags/hugo/</loc>
-    <lastmod>2026-09-20T21:29:06+08:00</lastmod>
+    <lastmod>2026-09-17T22:08:28+08:00</lastmod>
   </url><url>
     <loc>https://zhalieheiye.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2026-09-20T21:29:06+08:00</lastmod>
+    <lastmod>2026-09-17T22:08:28+08:00</lastmod>
   </url><url>
     <loc>https://zhalieheiye.github.io/about/</loc>
     <lastmod>2026-09-17T08:36:41+08:00</lastmod>

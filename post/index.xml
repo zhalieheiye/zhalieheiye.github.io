@@ -12,7 +12,7 @@
     
     <copyright>All articles on this blog are licensed under the BY-NC-SA license agreement unless otherwise stated. Please indicate the source when reprinting!</copyright>
     
-    <lastBuildDate>Mon, 28 Sep 2026 18:25:44 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:05:15 +0800</lastBuildDate>
     
     
     <atom:link href="https://zhalieheiye.github.io/post/index.xml" rel="self" type="application/rss&#43;xml" />
@@ -22,11 +22,86 @@
     
 
     <item>
+      <title>01-在wsl里安装ubuntu</title>
+      <link>https://zhalieheiye.github.io/post/technology/wsl/01-%E5%9C%A8wsl%E9%87%8C%E5%AE%89%E8%A3%85ubuntu/</link>
+      <pubDate>Tue, 29 Sep 2026 08:05:15 &#43;0800</pubDate>
+      <author>xxx@example.com (D-Sketon)</author>
+      <guid>https://zhalieheiye.github.io/post/technology/wsl/01-%E5%9C%A8wsl%E9%87%8C%E5%AE%89%E8%A3%85ubuntu/</guid>
+      <description>
+        <![CDATA[<h1>01-在wsl里安装ubuntu</h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <h1 id="开启虚拟化">
+<a class="header-anchor" href="#%e5%bc%80%e5%90%af%e8%99%9a%e6%8b%9f%e5%8c%96"></a>
+开启虚拟化
+</h1><p>打开 控制中心，点击 程序。</p>
+<p><img src="./index.assets/image-20260929080951859.png" alt="image-20260929080951859"></p>
+<p>点击 启用或关闭Windows功能</p>
+<p><img src="./index.assets/image-20260929081050263.png" alt="image-20260929081050263"></p>
+<p>确保开启红框标注的功能，根据系统提示进行操作，重启电脑</p>
+<p><img src="./index.assets/image-20260929081325096.png" alt="image-20260929081325096"></p>
+<h1 id="安装wsl2">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85wsl2"></a>
+安装wsl2
+</h1><p>点击<a href="https://github.com/microsoft/WSL/releases">此处</a>，跳转到微软的wsl仓库，选择合适的版本。</p>
+<p><img src="./index.assets/image-20260929081505109.png" alt="image-20260929081505109"></p>
+<p>双击下载后的文件，根据系统提示操作</p>
+<h1 id="下载ubuntu的wsl镜像文件">
+<a class="header-anchor" href="#%e4%b8%8b%e8%bd%bdubuntu%e7%9a%84wsl%e9%95%9c%e5%83%8f%e6%96%87%e4%bb%b6"></a>
+下载ubuntu的wsl镜像文件
+</h1><p>点击<a href="https://ubuntu.com/download/wsl">此处</a>，跳转至最新版的下载界面</p>
+<p><img src="./index.assets/image-20260929082728839.png" alt="image-20260929082728839"></p>
+<p>如果需要历史版本，点击<a href="https://ubuntu.com/download#download">此处</a>跳转</p>
+<p><img src="./index.assets/image-20260929083538725.png" alt="image-20260929083538725"></p>
+<p>这些就是历史版本，点击即可跳转至对应界面</p>
+<p>需要注意的是，有些版本没有wsl版</p>
+<p><img src="./index.assets/image-20260929083703665.png" alt="image-20260929083703665"></p>
+<p>以版本22.04为例，找到WSL image，点击 64-bit 这个链接，即可自动下载对应的wsl文件</p>
+<p><img src="./index.assets/image-20260929083749648.png" alt="image-20260929083749648"></p>
+<p>如果合适的话，wsl文件图标应该是个小企鹅</p>
+<p><img src="./index.assets/image-20260929084054657.png" alt="image-20260929084054657"></p>
+<h1 id="安装wsl">
+<a class="header-anchor" href="#%e5%ae%89%e8%a3%85wsl"></a>
+安装wsl
+</h1><p>打开cmd，依次输入这些命令，如果有类似结果，就说明可以安装了</p>
+<pre tabindex="0"><code>wsl --update
+</code></pre><pre tabindex="0"><code>wsl --version
+</code></pre><p><img src="./index.assets/image-20260929084402123.png" alt="image-20260929084402123"></p>
+<p>wsl默认的安装路径在c盘，可以用&ndash;location来指定安装路径</p>
+<pre tabindex="0"><code>wsl --install --from-file &lt;wsl文件路径&gt; --location &lt;更改的安装路径&gt; --name &lt;虚拟机命名，可选&gt;
+</code></pre><p>具体操作如如所示，后续步骤为创建用户和设置root用户密码</p>
+<p><img src="./index.assets/image-20260929085648416.png" alt="image-20260929085648416"></p>
+<h1 id="删除已安装的子系统">
+<a class="header-anchor" href="#%e5%88%a0%e9%99%a4%e5%b7%b2%e5%ae%89%e8%a3%85%e7%9a%84%e5%ad%90%e7%b3%bb%e7%bb%9f"></a>
+删除已安装的子系统
+</h1><p>使用如下命令展示当前已经安装的子系统</p>
+<pre tabindex="0"><code>wsl --list
+</code></pre><p>卸载子系统</p>
+<pre tabindex="0"><code>wsl --unregister &lt;子系统名&gt;
+</code></pre><p>具体操作如图所示。当前使用的不是cmd，故界面有些不同。cmd输入相同命令即可</p>
+<p><img src="./index.assets/image-20260929090132658.png" alt="image-20260929090132658"></p>
+<h1 id="进入子系统">
+<a class="header-anchor" href="#%e8%bf%9b%e5%85%a5%e5%ad%90%e7%b3%bb%e7%bb%9f"></a>
+进入子系统
+</h1><p>上图安装的截图其实已经告知了如何进入子系统</p>
+<pre tabindex="0"><code>wsl -d &lt;子系统名称&gt;
+</code></pre><h1 id="完结">
+<a class="header-anchor" href="#%e5%ae%8c%e7%bb%93"></a>
+完结
+</h1><p>至此，wsl里的ubuntu子系统就已经安装完，目前可以进行初步的使用</p>
+        
+        <hr><p>Published on 2026-09-29 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-29</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
       <title>在docker内配置mysql</title>
-      <link>https://zhalieheiye.github.io/post/mysql/01/</link>
+      <link>https://zhalieheiye.github.io/post/technology/mysql/01-%E5%9C%A8docker%E5%86%85%E9%85%8D%E7%BD%AEmysql/</link>
       <pubDate>Mon, 28 Sep 2026 18:25:44 &#43;0800</pubDate>
       <author>xxx@example.com (D-Sketon)</author>
-      <guid>https://zhalieheiye.github.io/post/mysql/01/</guid>
+      <guid>https://zhalieheiye.github.io/post/technology/mysql/01-%E5%9C%A8docker%E5%86%85%E9%85%8D%E7%BD%AEmysql/</guid>
       <description>
         <![CDATA[<h1>在docker内配置mysql</h1><p>Author: D-Sketon(xxx@example.com)</p>
         
@@ -89,11 +164,38 @@ mkdir -p /home/miku/docker/mysql8/conf.d
     
 
     <item>
+      <title> 碎碎念 </title>
+      <link>https://zhalieheiye.github.io/post/daily/2026/9/20/</link>
+      <pubDate>Sun, 20 Sep 2026 21:09:16 &#43;0800</pubDate>
+      <author>xxx@example.com (D-Sketon)</author>
+      <guid>https://zhalieheiye.github.io/post/daily/2026/9/20/</guid>
+      <description>
+        <![CDATA[<h1> 碎碎念 </h1><p>Author: D-Sketon(xxx@example.com)</p>
+        
+          <p>开学第一周好忙，天天都在跑来跑去</p>
+<p>今天补周五的课，还好周五没有课</p>
+<p>论大学生的计划性：早上我负责临时起意，去爬山，成功忽悠俩舍友一起去</p>
+<p>骑着我昨天斥四百余元巨资购买的小自行车，吭哧吭哧踩了半小时，到了山脚下</p>
+<p>一看山才海拔四百多米，以为没多少难度，结果爬了一个多小时（还是太菜了，脆皮大学生555）</p>
+<p>回来睡半小时跑工位去</p>
+<p>工位电脑不算拉，但是散热不能说没有用，就是没用。开机后cpu温度直接100°，水冷风扇吹出来的是冷风&hellip;</p>
+<p>斥百元巨资购入一个双塔式散热器，希望起作用</p>
+<p>明天第一次组会汇报，虽然老师挺水，但还是有些担心</p>
+<p>就这样，over</p>
+        
+        <hr><p>Published on 2026-09-20 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-20</p>]]>
+      </description>
+      
+    </item>
+    
+    
+
+    <item>
       <title>01-hugo搭建个人博客 </title>
-      <link>https://zhalieheiye.github.io/post/technology/hugo/01-qucikstarthugo/</link>
+      <link>https://zhalieheiye.github.io/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/</link>
       <pubDate>Thu, 17 Sep 2026 22:08:28 &#43;0800</pubDate>
       <author>xxx@example.com (D-Sketon)</author>
-      <guid>https://zhalieheiye.github.io/post/technology/hugo/01-qucikstarthugo/</guid>
+      <guid>https://zhalieheiye.github.io/post/technology/hugo/01-%E5%BF%AB%E9%80%9F%E5%BC%80%E5%A7%8Bhugo/</guid>
       <description>
         <![CDATA[<h1>01-hugo搭建个人博客 </h1><p>Author: D-Sketon(xxx@example.com)</p>
         
@@ -162,34 +264,7 @@ mkdir -p /home/miku/docker/mysql8/conf.d
 <li>
 <p>启动服务并在本地浏览展示效果</p>
         
-        <hr><p>Published on 2026-09-17 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-20</p>]]>
-      </description>
-      
-    </item>
-    
-    
-
-    <item>
-      <title> 碎碎念 </title>
-      <link>https://zhalieheiye.github.io/post/daily/2026/9/20/</link>
-      <pubDate>Sun, 20 Sep 2026 21:09:16 &#43;0800</pubDate>
-      <author>xxx@example.com (D-Sketon)</author>
-      <guid>https://zhalieheiye.github.io/post/daily/2026/9/20/</guid>
-      <description>
-        <![CDATA[<h1> 碎碎念 </h1><p>Author: D-Sketon(xxx@example.com)</p>
-        
-          <p>开学第一周好忙，天天都在跑来跑去</p>
-<p>今天补周五的课，还好周五没有课</p>
-<p>论大学生的计划性：早上我负责临时起意，去爬山，成功忽悠俩舍友一起去</p>
-<p>骑着我昨天斥四百余元巨资购买的小自行车，吭哧吭哧踩了半小时，到了山脚下</p>
-<p>一看山才海拔四百多米，以为没多少难度，结果爬了一个多小时（还是太菜了，脆皮大学生555）</p>
-<p>回来睡半小时跑工位去</p>
-<p>工位电脑不算拉，但是散热不能说没有用，就是没用。开机后cpu温度直接100°，水冷风扇吹出来的是冷风&hellip;</p>
-<p>斥百元巨资购入一个双塔式散热器，希望起作用</p>
-<p>明天第一次组会汇报，虽然老师挺水，但还是有些担心</p>
-<p>就这样，over</p>
-        
-        <hr><p>Published on 2026-09-20 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-20</p>]]>
+        <hr><p>Published on 2026-09-17 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-17</p>]]>
       </description>
       
     </item>
