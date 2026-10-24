@@ -94,6 +94,68 @@
 </code></pre></li>
 <li>
 <p>启动服务并在本地浏览展示效果</p>
+<pre tabindex="0"><code>hugo server 
+</code></pre><pre tabindex="0"><code># 应该输出类似的结果
+
+...
+Start building sites …
+hugo v0.166.0-78400b4de8adc99273d3e674ed6c4d14c3bdf669+extended windows/amd64 BuildDate=2026-09-09T14:45:02Z VendorInfo=gohugoio
+
+WARN  found no layout file for &#34;html&#34; for kind &#34;section&#34;: You should create a template file which matches Hugo Layouts Lookup Rules for this combination.
+
+                  │ EN
+──────────────────┼─────
+ Pages            │  11
+ Paginator pages  │   0
+ Non-page files   │   0
+ Static files     │ 192
+ Processed images │   0
+ Aliases          │   1
+ Cleaned          │   0
+
+Built in 258 ms
+Environment: &#34;development&#34;
+Serving pages from disk
+Running in Fast Render Mode. For full rebuilds on change: hugo server --disableFastRender
+Web Server is available at http://localhost:1313/ (bind address 127.0.0.1)
+Press Ctrl+C to stop
+
+# 这里 http://localhost:1313/ 就是本地预览的地址，可以预览网页效果
+# 此时并未创建文章，所以应该是一个没有贴文内容的，且具有样式的网页
+</code></pre></li>
+<li>
+<p>创建贴文</p>
+<pre tabindex="0"><code>hugo new content/post/&lt;贴文标题&gt;.md
+</code></pre><p>此时，会在项目内的 content/post 文件夹下创建一个md文件，查看md文件的开头，应该是类似的结构</p>
+<pre tabindex="0"><code>+++
+date = &#39;2026-09-15T22:43:21+08:00&#39;
+draft = true
+title = &#39;贴文标题&#39;
+
++++
+</code></pre><p>默认贴文的draft属性值为true，不是的话也不影响，可以设置模板进行覆盖（待填坑）</p>
+<p>需要单独讲解的是，draft = true，表示该贴文处于草稿阶段，如果想要本地预览时，可以看见该贴文生成的网页，可以有两种方法：</p>
+<ul>
+<li>将 true 改为 false，表示该贴文已经编辑成功，可以正式发布，之后会将该帖文加入静态网页的构建中（一般来说，只有当贴文确定要发布了，才会修改该属性）
+<ul>
+<li>使用 hugo server 命令就可以本地浏览该贴文构建的网页</li>
+</ul>
+</li>
+<li>使用 hugo server &ndash;buildDrafts
+<ul>
+<li>表示本地预览时，构建处于草稿阶段的贴文</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>
+<p>确认无疑后，就将贴文的 draft = true 改为 draft = false，之后利用 hugo 指令，生成静态文件夹（在项目根目录下，有一个public文件夹，这个就是生成的静态网页文件夹）</p>
+</li>
+</ol>
+</li>
+</ul>
+</li>
+</ul>
         
         <hr><p>Published on 2026-09-17 at <a href='https://zhalieheiye.github.io/'>My New Hugo Project</a>, last modified on 2026-09-17</p>]]>
       </description>
